@@ -61,7 +61,7 @@ matches:
     replace: |
               Hi there,
 
-              Thanks for reaching out. However, I don't believe {{product}} is a good fit for my audience at this point, and my ethics statement (as well as my limited time) prohibits me from accepting most opportunities. I hope you understand!
+              Thanks for reaching out. However, I don't believe {{product}} is a good fit for my audience at this point, and my ethics statement (https://nicolevanderhoeven.com/ethics/), as well as my limited time, prohibits me from accepting most opportunities. I hope you understand!
 
               I wish you the best of luck in finding someone who is a better fit.
 
