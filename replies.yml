@@ -1,0 +1,103 @@
+matches:
+  # General replies
+  - trigger: ";hit"
+    replace: "Hi there!"
+  - trigger: ";llmk"
+    replace: "let me know"
+  - trigger: ";lmk"
+    replace: "Let me know"
+  - trigger: ";nic"
+    replace: " -- Nicole"
+  - trigger: ";nn"
+    replace: |
+
+              Nicole
+  - trigger: ";questions"
+    replace: "Let me know if you have any questions!"
+
+  # Thanks
+  - trigger: ";ty.watch"
+    replace: "Thanks for watching!"
+  - trigger: ";ty.app"
+    replace: "I really appreciate it!"
+  - trigger: ";ty.support"
+    replace: "Thanks for the support!"
+  - trigger: ";tysm"
+    replace: "Thank you so much! I really appreciate it."
+  - trigger: ";ty.sweet"
+    replace: "That's sweet of you to say. Thank you!"
+  - trigger: ";ty.feed"
+    replace: "Thanks for the feedback! I'm always trying to improve, so I'll keep that in mind for next time."
+
+  # You're welcome
+  - trigger: ";yw.nw"
+    replace: "No worries"
+  - trigger: ";yw.w"
+    replace: "You're welcome"
+  - trigger: ";yw.glad"
+    replace: "I'm glad I could help!"
+  - trigger: ";yw.happy"
+    replace: "Happy to hear that!"
+  - trigger: ";yw.videos"
+    replace: "I'm happy you like my videos!"
+
+  # Sorry
+  - trigger: ";sorry.ans"
+    replace: "Sorry, I know that wasn't the answer you were hoping for."
+  - trigger: ";sorry.feel"
+    replace: "I'm sorry you feel that way."
+
+  # No
+  - trigger: ";no.community"
+    replace: "It sounds like there's more going on here that might need further troubleshooting. Since I'm not able to do that here, maybe you could head over to either the Obsidian community forum or the Obsidian Discord server with a detailed description of the issues you're facing. Here's the link: https://obsidian.md/community . Good luck!"
+  - trigger: ";no.consult"
+    replace: |
+              I don't offer consulting services, unfortunately. I work full-time and Obsidian is a part-time passion project, so can't really start new projects right now. However, I can recommend two people who *do* offer consulting that I can recommend as good members of the community:
+              - Kara Munroe: kara@monarchstrategiesllc.com . She does YouTube videos at https://www.youtube.com/@knowledgeworknexus/videos
+              - Bianca Pereira: She does courses and PKM coaching. Email her at: contact@biancapereira.me . She also makes YouTube videos at https://www.youtube.com/@BiaResearcher
+  - trigger: ";no.sorry"
+    replace: "Hey, I wish I could help you with that, but I'm not able to do so right now. Sorry about that!"
+  - regex: ";no.spons\\((?P<product>.*)\\)"
+    replace: |
+              Hi there,
+
+              Thanks for reaching out. However, I don't believe {{product}} is a good fit for my audience at this point, and my ethics statement (as well as my limited time) prohibits me from accepting most opportunities. I hope you understand!
+
+              I wish you the best of luck in finding someone who is a better fit.
+
+
+              Thanks,
+              Nicole
+  - trigger: ";no.ads"
+    replace: |
+              Hi there,
+
+              Thanks for reaching out, but I'm not interested in any services regarding advertising, SEO, marketing, or growth.
+
+
+              Cheers,
+              Nicole
+  - regex: ";no.tool\\((?P<product>.*)\\)"
+    replace: |
+              Hi there,
+
+              I'm not too familiar with {{product}}, and I do have a list of things I usually look for in a PKM tool before I have a look at it, since there are so many these days! I also publish that list here: https://notes.nicolevanderhoeven.com/Characteristics+of+a+good+Personal+Knowledge+Management+system#Requirements+for+a+PKM+tool
+
+              Would you mind letting me know which of the following {{product}} checks?
+              - [ ] Stores notes locally.
+              - [ ] Saves notes in Markdown or another plaintext format.
+              - [ ] Allows hypertext linking between notes and to external URLs.
+              - [ ] Shows backlinks.
+              - [ ] Shows unlinked mentions.
+              - [ ] Can be used offline.
+              - [ ] Can be used on multiple devices and operating systems (Windows, macOS, Linux, iOS, Android).
+              - [ ] Syncs seamlessly across devices.
+              - [ ] Allows freeform text (paragraphs, not just bullets).
+              - [ ] Has a robust search (tags, path, regular expressions) or querying system (for metadata).
+              - [ ] Allows addition of metadata (tags, custom parameters).
+
+              Until a tool ticks all of those boxes, I'm unfortunately unable to spend the time on it to review it. If that's the case, I still wish you luck with it! Maybe someday we can circle back around to it. Thanks for understanding!
+
+
+              Cheers,
+              Nicole

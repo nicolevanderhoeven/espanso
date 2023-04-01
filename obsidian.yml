@@ -1,0 +1,61 @@
+matches:
+
+  # Obsidian
+  - trigger: ";obs"
+    replace: "Obsidian"
+  - trigger: ";comobs"
+    replace: "https://obsidian.md/community"
+  - trigger: ";item"
+    replace: |
+              ---
+              name: 
+              type: 
+              attunement: 
+              rarity: 
+              tags: 
+              requires: 
+              source:
+              ---
+  - trigger: ";k6logo.e"
+    replace: "![[k6 logo - small.png|15]]🎞️ "
+  - trigger: ";leaf"
+    replace: |
+              ```leaflet
+              id: id_here
+              image: 
+              height: 450px
+              minZoom: 6
+              maxZoom: 10
+              defaultZoom: 7
+              zoomDelta: 1
+              unit: feet
+              scale: 1
+              ```
+  - trigger: ";p2.1act"
+    replace: "*⬻{ .Pathfinder }*"
+  - trigger: ";p2.2act"
+    replace: "*⬺{ .Pathfinder }*"
+  - trigger: ";p2.3act"
+    replace: "⬽{ .Pathfinder }"
+  - trigger: ";p2.noact"
+    replace: "*⭓{ .Pathfinder }*"
+  - trigger: ";p2.react"
+    replace: "*⬲{ .Pathfinder }*"
+  - trigger: ";today"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "[[%Y-%m-%d]]"
+  - trigger: ";yout"
+    replace: |
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/vbl1nP4H9Yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - trigger: ";docs.dataview"
+    replace: "https://blacksmithgu.github.io/obsidian-dataview/"
+  - trigger: ";docs.templater"
+    replace: "https://silentvoid13.github.io/Templater/"
+  - trigger: ";discord.obs"
+    replace: "https://discord.gg/obsidianmd"
+  - trigger: ";forum.obs"
+    replace: "https://forum.obsidian.md/"

@@ -1,0 +1,120 @@
+matches:
+
+  # Tech
+  - trigger: ";bug"
+    replace: |
+              Steps to reproduce: 
+
+              Expected result: 
+
+              Actual result: 
+  - trigger: ";gat"
+    replace: "Gatling"
+  - trigger: ";jm"
+    replace: "JMeter"
+  - trigger: ";pp"
+    replace: "Puppeteer"
+  - trigger: ";pw"
+    replace: "Playwright"
+  - trigger: ";cyp"
+    replace: "Cypress"
+  - trigger: ";jen"
+    replace: "Jenkins"
+  - trigger: ";js"
+    replace: "JavaScript"
+  - trigger: ";loadgen"
+    replace: "load generator"
+  - trigger: ";otc"
+    replace: "on the cloud"
+  - trigger: ";lr"
+    replace: "LoadRunner"
+  - trigger: ";lt"
+    replace: "load testing"
+  - trigger: ";msba"
+    replace: "microservices-based architecture"
+  - trigger: ";prom"
+    replace: "Prometheus"
+  - trigger: ";prw"
+    replace: "Prometheus Remote Write"
+  - trigger: ";sel"
+    replace: "Selenium"
+  - trigger: ";tb"
+    replace: "Test Builder"
+  - trigger: ";fb"
+    replace: "Facebook"
+  - trigger: ";yt"
+    replace: "YouTube"
+  - trigger: ";kub"
+    replace: "kubectl"
+  - trigger: ";k8s"
+    replace: "Kubernetes"
+
+  # Grafana Labs/k6
+  - trigger: ";koh"
+    replace: "k6 Office Hours"
+  - trigger: ";invitekoh"
+    replace: |
+              Hey! The link to the streaming platform is ${STREAMYARD_LINK_HERE}
+              
+              However, for sharing purposes, the video itself will be live here: ${YOUTUBE_LINK_HERE} and the recording will also be saved on that link afterwards.
+
+              This invitation is for 15 minutes before broadcast time so that we can all do a tech check for audio/video/screenshare settings. Looking forward to it! :)
+  - trigger: ";gc"
+    replace: "Grafana Cloud"
+  - trigger: ";gl"
+    replace: "Grafana Labs"
+  - trigger: ";graf"
+    replace: "Grafana"
+  - trigger: ";kc"
+    replace: "k6 Cloud"
+  - trigger: ";gk6"
+    replace: "Grafana Cloud k6"
+  - trigger: ";me.k6.e"
+    replace: "nicole@k6.io"
+  - trigger: ";k6.yt"
+    replace: "https://youtube.com/k6test"
+  - trigger: ";k6.live"
+    replace: "https://www.youtube.com/c/k6test/live"
+  - trigger: ";me.li.e"
+    replace: "nicole@loadimpact.com"
+  - trigger: ";me.glmast"
+    replace: "https://grafana.social/@nicole"
+  - trigger: ";playlist.kc"
+    replace: "https://www.youtube.com/watch?v=ncxCIuo5tUU&list=PLJdv3RhAQXNGkRCp7Q0k77n5jif4qjz2o"
+  - trigger: ";playlist.koh"
+    replace: "https://www.youtube.com/playlist?list=PLJdv3RhAQXNE1TFXn2pp9h_Ul1q_kJrEZ"
+  - trigger: ";textkoh"
+    replace: |
+
+                ---
+
+                Contact Nicole:
+                Twitter: https://twitter.com/n_vanderhoeven
+                Site: https://nicolevanderhoeven.com
+
+                Contact Marie:
+                Twitter: https://twitter.com/mcruzdrake
+                Site: https://www.testingwithmarie.com/
+
+                Learn more about k6:
+                Website: https://k6.io
+                Repo: https://github.com/grafana/k6
+  - trigger: ";textmeetup"
+    replace: |
+                This is a live event, and you can catch us on one of the following platforms:
+                YouTube
+                Twitch
+                LinkedIn
+
+                This event will be recorded, and the recording will be immediately available on the same link on YouTube afterwards.
+
+  - trigger: ";ocr"
+    replace: "ObservabilityCON on the Road"
+
+  # Adobo & Avocados
+  - trigger: ";ana.f"
+    replace: "Adobo & Avocados"
+  - trigger: ";ana.s"
+    replace: "A&A"
+  - trigger: ";ana.yt"
+    replace: "https://www.youtube.com/@adoboandavocados"
