@@ -43,6 +43,10 @@ matches:
     replace: "NICOLE:"
   - trigger: ";rw"
     replace: "Readwise"
+  - trigger: ";lip"
+    replace: "Learning in public"
+  - trigger: ";llip"
+    replace: "learning in public"
 
   # Countries
   - trigger: ";nl"
@@ -71,5 +75,7 @@ matches:
     replace: "13th Age"
   - trigger: ";sd"
     replace: "Shadowdark"
+  - trigger: ";sq"
+    replace: "Squeeee"
 
 

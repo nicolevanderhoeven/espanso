@@ -41,3 +41,5 @@ matches:
     replace: "👩‍🦰"
   - trigger: ";plane.e"
     replace: "✈️"
+  - trigger: ";check.e"
+    replace: "✅"

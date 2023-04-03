@@ -8,12 +8,12 @@ matches:
     replace: "Let me know"
   - trigger: ";nic"
     replace: " -- Nicole"
-  - trigger: ";nn"
-    replace: |
-
-              Nicole
   - trigger: ";questions"
     replace: "Let me know if you have any questions!"
+
+  # Answers to FAQs
+  - trigger: ";faq.theme"
+    replace: "I always name the theme (and plugins) I've used in the first pinned comment under a video. That way I don't have to scrub through every video when people ask, heh!"
 
   # Thanks
   - trigger: ";ty.watch"
@@ -28,18 +28,22 @@ matches:
     replace: "That's sweet of you to say. Thank you!"
   - trigger: ";ty.feed"
     replace: "Thanks for the feedback! I'm always trying to improve, so I'll keep that in mind for next time."
+  - trigger: ";ty.videos"
+    replace: "I'm happy you like my videos!"
+  - trigger: ";ty.happy"
+    replace: "Happy to hear that!"
+  - trigger: ";ty.glad"
+    replace: "Thanks, glad you liked it!"
 
   # You're welcome
-  - trigger: ";yw.nw"
+  - trigger: ";nw"
     replace: "No worries"
+  - trigiger: ";nnw"
+    replace: "no worries"
   - trigger: ";yw.w"
     replace: "You're welcome"
   - trigger: ";yw.glad"
     replace: "I'm glad I could help!"
-  - trigger: ";yw.happy"
-    replace: "Happy to hear that!"
-  - trigger: ";yw.videos"
-    replace: "I'm happy you like my videos!"
 
   # Sorry
   - trigger: ";sorry.ans"
