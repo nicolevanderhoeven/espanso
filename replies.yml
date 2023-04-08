@@ -38,7 +38,7 @@ matches:
   # You're welcome
   - trigger: ";nw"
     replace: "No worries"
-  - trigiger: ";nnw"
+  - trigger: ";nnw"
     replace: "no worries"
   - trigger: ";yw.w"
     replace: "You're welcome"

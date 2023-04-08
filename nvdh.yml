@@ -17,7 +17,7 @@ matches:
     replace: "https://patreon.com/nicolevdh"
   - trigger: ";me.pkm"
     replace: "https://pkm.social/@nicole"
-  - trigger: ";me.s"
+  - trigger: ";me.site"
     replace: "https://nicolevanderhoeven.com"
   - trigger: ";me.twitter"
     replace: "https://twitter.com/n_vanderhoeven"
@@ -43,6 +43,8 @@ matches:
     replace: "https://nicolevanderhoeven.com/gear/"
   - trigger: ";me.notes"
     replace: "https://notes.nicolevanderhoeven.com"
+  - trigger: ";me.speaking"
+    replace: "https://nicolevanderhoeven.com/speaking"
 
   # Lucky Dippers
   - trigger: ";ld.e"
