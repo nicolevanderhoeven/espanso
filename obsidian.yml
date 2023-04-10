@@ -61,3 +61,5 @@ matches:
     replace: "https://forum.obsidian.md/"
   - trigger: ";md"
     replace: "Markdown"
+  - trigger: ";op"
+    replace: "Obsidian Publish"
