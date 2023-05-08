@@ -56,6 +56,10 @@ matches:
     replace: "Observability"
   - trigger: ";oo11"
     replace: "observability"
+  - trigger: ";gist"
+    replace: "https://gist.github.com/"
+  - trigger: ";gh"
+    replace: "https://github.com/"
 
   # Grafana Labs/k6
   - trigger: ";koh"
