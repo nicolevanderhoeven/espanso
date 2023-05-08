@@ -48,6 +48,14 @@ matches:
     replace: "kubectl"
   - trigger: ";k8s"
     replace: "Kubernetes"
+  - trigger: ";mon"
+    replace: "Monitoring"
+  - trigger: ";mmon"
+    replace: "monitoring"
+  - trigger: ";o11"
+    replace: "Observability"
+  - trigger: ";oo11"
+    replace: "observability"
 
   # Grafana Labs/k6
   - trigger: ";koh"
@@ -110,6 +118,10 @@ matches:
 
   - trigger: ";ocr"
     replace: "ObservabilityCON on the Road"
+  - trigger: ";graa"
+    replace: "Grafana Agent"
+  - trigger: ";gkm"
+    replace: "Grafana Kubernetes Monitoring"
 
   # Adobo & Avocados
   - trigger: ";ana.f"

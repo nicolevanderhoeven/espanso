@@ -38,6 +38,8 @@ matches:
   # You're welcome
   - trigger: ";nw"
     replace: "No worries"
+  - trigger: ";np"
+    replace: "No problem"
   - trigger: ";nnw"
     replace: "no worries"
   - trigger: ";yw.w"

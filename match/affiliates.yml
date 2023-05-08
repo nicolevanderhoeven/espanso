@@ -42,3 +42,5 @@ matches:
     replace: "https://www.xolo.io/ref/NICVAN2"
   - trigger: ";aff.ynab"
     replace: "https://ynab.com/referral/?ref=eNFd3bwMg2vpyxB5"
+  - trigger: ";aff.bianca"
+    replace: "https://gumroad.com/a/152944339/xafyw"

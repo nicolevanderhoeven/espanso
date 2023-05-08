@@ -45,6 +45,10 @@ matches:
     replace: "https://notes.nicolevanderhoeven.com"
   - trigger: ";me.speaking"
     replace: "https://nicolevanderhoeven.com/speaking"
+  - trigger: ";hex.red"
+    replace: "ec2127"
+  - trigger: ";short"
+    replace: "For more guidance on how to use Obsidian, check out my course for beginners, Obsidian for Everyone: https://courses.nicolevanderhoeven.com/o4e"
 
   # Lucky Dippers
   - trigger: ";ld.e"
@@ -55,3 +59,7 @@ matches:
     replace: "http://youtube.com/c/luckydippers"
   - trigger: ";ld.ou"
     replace: "Lucky Dippers OÜ"
+
+  # Videos
+  - trigger: ";video.anup"
+    replace: "https://www.youtube.com/watch?v=7-SOwxpZQNI"
