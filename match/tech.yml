@@ -126,6 +126,56 @@ matches:
     replace: "Grafana Agent"
   - trigger: ";gkm"
     replace: "Grafana Kubernetes Monitoring"
+  - trigger: ";k6"
+    replace: |
+              import http from "k6/http";
+              import { sleep, check } from "k6";
+              import { randomIntBetween } from "https://jslib.k6.io/k6-utils/1.1.0/index.js";
+
+              // export const options = {
+              //     scenarios: {
+              //         home: {
+              //             executor: 'ramping-vus',
+              //             exec: 'homepage',
+              //             startVUs: 0,
+              //             stages: [
+              //                 { duration: "30s", target: 20 },
+              //                 { duration: "10m", target: 20 },
+              //                 { duration: "30s", target: 0}
+              //             ],
+              //         },
+              //         dispatch: {
+              //             executor: 'ramping-vus',
+              //             exec: 'dispatch',
+              //             startVUs: 0,
+              //             stages: [
+              //                 { duration: "30s", target: 10 },
+              //                 { duration: "10m", target: 10 },
+              //                 { duration: "30s", target: 0}
+              //             ]
+              //         }
+              //     },
+              //     thresholds: { 
+              //         http_req_duration: ['p(95) < 1000'], // Response times average below 1s
+              //         http_req_failed: ['rate < 0.01'],  // Error rate below 1%
+              //       },
+              //     ext : { 
+              //         loadimpact: {
+              //           projectID: ,
+              //           name: "",
+              //           distribution: {
+              //             'amazon:us:ashburn': { loadZone: 'amazon:us:ashburn', percent: 50 },
+              //             'amazon:de:frankfurt': { loadZone: 'amazon:de:frankfurt', percent: 30 },
+              //             'amazon:au:sydney': { loadZone: 'amazon:au:sydney', percent: 20 },
+              //           },
+              //         },
+              //       },
+              // }
+
+              export default function () {
+
+              }
+
 
   # Adobo & Avocados
   - trigger: ";ana.f"

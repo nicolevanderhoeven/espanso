@@ -44,3 +44,5 @@ matches:
     replace: "https://ynab.com/referral/?ref=eNFd3bwMg2vpyxB5"
   - trigger: ";aff.bianca"
     replace: "https://gumroad.com/a/152944339/xafyw"
+  - trigger: ";aff.whoop"
+    replace: "https://join.whoop.com/3A0F0B"
