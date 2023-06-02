@@ -175,7 +175,8 @@ matches:
               export default function () {
 
               }
-
+  - trigger: ";goh"
+    replace: "Grafana Office Hours"
 
   # Adobo & Avocados
   - trigger: ";ana.f"
