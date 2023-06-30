@@ -95,14 +95,17 @@ matches:
     replace: "https://www.youtube.com/watch?v=ncxCIuo5tUU&list=PLJdv3RhAQXNGkRCp7Q0k77n5jif4qjz2o"
   - trigger: ";playlist.koh"
     replace: "https://www.youtube.com/playlist?list=PLJdv3RhAQXNE1TFXn2pp9h_Ul1q_kJrEZ"
+  - trigger: ";playlist.goh"
+    replace: "https://www.youtube.com/watch?v=uk7NoagbJ28&list=PLDGkOdUX1Ujrrse-cdj20RRah9hyHdxBu"
   - trigger: ";textkoh"
     replace: |
 
                 ---
 
                 Contact Nicole:
-                Twitter: https://twitter.com/n_vanderhoeven
+                Mastodon: https://pkm.social/@nicole
                 Site: https://nicolevanderhoeven.com
+                GitHub: https://github.com/nicolevanderhoeven
 
                 Contact Marie:
                 Twitter: https://twitter.com/mcruzdrake
@@ -177,6 +180,24 @@ matches:
               }
   - trigger: ";goh"
     replace: "Grafana Office Hours"
+  - trigger: ";text.goh"
+    replace: |                          
+            ---
+
+            Contact Nicole:
+            Mastodon: https://pkm.social/@nicole
+            GitHub: https://github.com/nicolevanderhoeven
+            Site: https://nicolevanderhoeven.com
+
+            Contact Torkel:
+            Mastodon: https://hachyderm.io/@torkelo
+            GitHub: https://github.com/torkelo
+            Site: http://www.codinginstinct.com/
+
+            Learn more about Grafana Labs:
+            Website: https://grafana.com
+            Repo: https://github.com/grafana/grafana
+
 
   # Adobo & Avocados
   - trigger: ";ana.f"

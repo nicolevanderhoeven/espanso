@@ -48,7 +48,7 @@ matches:
   - trigger: ";hex.red"
     replace: "ec2127"
   - trigger: ";short"
-    replace: "For more guidance on how to use Obsidian, check out my course for beginners, Obsidian for Everyone: https://courses.nicolevanderhoeven.com/o4e"
+    replace: "Check out my course for beginners, Obsidian for Everyone: https://courses.nicolevanderhoeven.com/o4e"
 
   # Lucky Dippers
   - trigger: ";ld.e"
