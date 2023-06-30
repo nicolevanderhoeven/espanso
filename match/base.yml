@@ -81,5 +81,15 @@ matches:
     replace: "Sly Flourish"
   - trigger: ";tt"
     replace: "TTRPG"
+  - trigger: ";charm"
+    replace: "!r 2d6+2"
+  - trigger: ";cool"
+    replace: "!r 2d6"
+  - trigger: ";sharp"
+    replace: "!r 2d6-1"
+  - trigger: ";tough"
+    replace: "!r 2d6-1"
+  - trigger: ";weird"
+    replace: "!r 2d6+3"
 
 
