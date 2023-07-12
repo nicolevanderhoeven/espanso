@@ -46,3 +46,5 @@ matches:
     replace: "https://gumroad.com/a/152944339/xafyw"
   - trigger: ";aff.whoop"
     replace: "https://join.whoop.com/3A0F0B"
+  - trigger: ";aff.snipd"
+    replace: "https://www.snipd.com/ai-podcast-notes?invitationCode=NICOLE"

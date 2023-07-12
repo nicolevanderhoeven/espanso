@@ -49,6 +49,10 @@ matches:
     replace: "⭐"
   - trigger: ";wand.e"
     replace: "🪄"
+  - trigger: ";ana.e"
+    replace: "👩‍🦰🥑"
+  - trigger: ";g.e"
+    replace: "![[logo-grafana.png|20]]"
 
   # Flags
   - trigger: ";flag.es"
