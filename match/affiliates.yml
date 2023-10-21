@@ -23,7 +23,7 @@ matches:
   - trigger: ";aff.readwise"
     replace: "https://readwise.io/nicole"
   - trigger: ";aff.reclaim"
-    replace: "https://reclaim.ai/r/s/yYOqK"
+    replace: "https://go.reclaim.ai/eg0tgbamp7cb"
   - trigger: ";aff.rev"
     replace: "http://try.rev.com/6cP3lQ"
   - trigger: ";aff.shortform"

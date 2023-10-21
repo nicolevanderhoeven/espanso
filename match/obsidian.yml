@@ -54,7 +54,7 @@ matches:
       - name: timestamp
         type: date
         params:
-          format: "%H:%m"
+          format: "%H:%M"
   - trigger: ";yout"
     replace: |
               <iframe width="560" height="315" src="https://www.youtube.com/embed/vbl1nP4H9Yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

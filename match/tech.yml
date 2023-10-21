@@ -85,6 +85,8 @@ matches:
     replace: "nicole@k6.io"
   - trigger: ";k6.yt"
     replace: "https://youtube.com/k6test"
+  - trigger: ";gr.yt"
+    replace: "https://youtube.com/@grafana"
   - trigger: ";k6.live"
     replace: "https://www.youtube.com/c/k6test/live"
   - trigger: ";me.li.e"
@@ -96,7 +98,7 @@ matches:
   - trigger: ";playlist.koh"
     replace: "https://www.youtube.com/playlist?list=PLJdv3RhAQXNE1TFXn2pp9h_Ul1q_kJrEZ"
   - trigger: ";playlist.goh"
-    replace: "https://www.youtube.com/watch?v=uk7NoagbJ28&list=PLDGkOdUX1Ujrrse-cdj20RRah9hyHdxBu"
+    replace: "https://www.youtube.com/playlist?list=PLDGkOdUX1Ujrrse-cdj20RRah9hyHdxBu"
   - trigger: ";textkoh"
     replace: |
 
@@ -104,11 +106,11 @@ matches:
 
                 Contact Nicole:
                 Mastodon: https://pkm.social/@nicole
-                Site: https://nicolevanderhoeven.com
                 GitHub: https://github.com/nicolevanderhoeven
+                Site: https://nicolevanderhoeven.com
 
                 Contact Marie:
-                Twitter: https://twitter.com/mcruzdrake
+                X: https://twitter.com/mcruzdrake
                 Site: https://www.testingwithmarie.com/
 
                 Learn more about k6:
@@ -189,10 +191,10 @@ matches:
             GitHub: https://github.com/nicolevanderhoeven
             Site: https://nicolevanderhoeven.com
 
-            Contact Torkel:
-            Mastodon: https://hachyderm.io/@torkelo
-            GitHub: https://github.com/torkelo
-            Site: http://www.codinginstinct.com/
+            Contact Paul:
+            X: https://twitter.com/javaducky
+            GitHub: https://github.com/javaducky
+            Site: https://javaducky.com/
 
             Learn more about Grafana Labs:
             Website: https://grafana.com

@@ -53,6 +53,12 @@ matches:
     replace: "👩‍🦰🥑"
   - trigger: ";g.e"
     replace: "![[logo-grafana.png|20]]"
+  - trigger: ";lights.e"
+    replace: "🚦"
+  - trigger: ";bp.e"
+    replace: "🚨"
+  - trigger: ";bike.e"
+    replace: "🚲"
 
   # Flags
   - trigger: ";flag.es"
