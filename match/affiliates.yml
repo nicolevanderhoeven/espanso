@@ -47,4 +47,4 @@ matches:
   - trigger: ";aff.whoop"
     replace: "https://join.whoop.com/3A0F0B"
   - trigger: ";aff.snipd"
-    replace: "https://www.snipd.com/ai-podcast-notes?invitationCode=NICOLE"
+    replace: "https://link.snipd.com/Cx7S/nicole"
