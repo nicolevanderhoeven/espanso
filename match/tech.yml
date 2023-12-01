@@ -210,3 +210,21 @@ matches:
     replace: "A&A"
   - trigger: ";ana.yt"
     replace: "https://www.youtube.com/@adoboandavocados"
+  - trigger: ";text.ana"
+    replace: |                          
+            
+
+              We are Marie Cruz and Nicole van der Hoeven, two Senior Developer Advocates at Grafana Labs. But we're not here to talk about work! On Adobo & Avocados, we talk about the human side of the work we love and how to make the industry a more colourful place. We talk about intersectionality, developer advocacy, testing, development, and sometimes we even talk about food.
+
+              ---
+              Contact Nicole:
+              Mastodon: https://pkm.social/@nicole
+              LinkedIn: https://www.linkedin.com/in/nvanderhoeven
+              Site: https://nicolevanderhoeven.com
+
+              Contact Marie:
+              X: https://twitter.com/mcruzdrake
+              BlueSky: https://bsky.app/profile/mariecruz.bsky.social
+              LinkedIn: https://www.linkedin.com/in/mariedesireecruz/
+              Site: https://www.testingwithmarie.com/
+

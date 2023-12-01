@@ -50,6 +50,12 @@ matches:
   - trigger: ";short"
     replace: "Check out my course for beginners, Obsidian for Everyone: https://courses.nicolevanderhoeven.com/o4e"
 
+  # Grafana Labs
+  - trigger: ";me.gr.e.f"
+    replace: "nicole.vanderhoeven@grafana.com"
+  - trigger: ";me.gr.e.s"
+    replace: "nicole@grafana.com"
+
   # Lucky Dippers
   - trigger: ";ld.e"
     replace: "nicole@luckydippers.com"
