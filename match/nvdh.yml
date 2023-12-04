@@ -57,7 +57,7 @@ matches:
     replace: "nicole@grafana.com"
 
   # Lucky Dippers
-  - trigger: ";ld.e"
+  - trigger: ";me.ld.e"
     replace: "nicole@luckydippers.com"
   - trigger: ";ld.f"
     replace: "Lucky Dippers"
