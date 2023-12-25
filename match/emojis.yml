@@ -75,3 +75,5 @@ matches:
     replace: "🇵🇹"
   - trigger: ";flag.us"
     replace: "🇺🇸"
+  - trigger: ";flag.ee"
+    replace: "🇪🇪"

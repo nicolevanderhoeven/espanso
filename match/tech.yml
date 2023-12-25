@@ -60,6 +60,8 @@ matches:
     replace: "https://gist.github.com/"
   - trigger: ";gh"
     replace: "https://github.com/"
+  - trigger: ";otel"
+    replace: "OpenTelemetry"
 
   # Grafana Labs/k6
   - trigger: ";koh"
@@ -227,4 +229,3 @@ matches:
               BlueSky: https://bsky.app/profile/mariecruz.bsky.social
               LinkedIn: https://www.linkedin.com/in/mariedesireecruz/
               Site: https://www.testingwithmarie.com/
-
