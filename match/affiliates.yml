@@ -48,3 +48,5 @@ matches:
     replace: "https://join.whoop.com/3A0F0B"
   - trigger: ";aff.snipd"
     replace: "https://link.snipd.com/Cx7S/nicole"
+  - trigger: ";aff.buttondown"
+    replace: "https://buttondown.email/refer/nvdh"
