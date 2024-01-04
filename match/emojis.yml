@@ -79,3 +79,5 @@ matches:
     replace: "🇪🇪"
   - trigger: ";mushroom.e"
     replace: "🍄"
+  - trigger: ";eyes.e"
+    replace: "👀"
