@@ -32,6 +32,8 @@ matches:
   - trigger: ";pol"
     replace: "Polyglot Performance B.V."
   - trigger: ";o4e"
+    replace: "Obsidian for Everyone"
+  - trigger: ";me.o4e"
     replace: "https://courses.nicolevanderhoeven.com/o4e"
   - trigger: ";rob.e"
     replace: "hoevenrobert@gmail.com"
