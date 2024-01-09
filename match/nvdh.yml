@@ -53,6 +53,8 @@ matches:
     replace: "Check out my course for beginners, Obsidian for Everyone: https://courses.nicolevanderhoeven.com/o4e"
   - trigger: ";me.tip"
     replace: "https://tip.nicolevanderhoeven.com"
+  - trigger: ";nic"
+    replace: "https://nicole.to/"
 
   # Grafana Labs
   - trigger: ";me.gr.e.f"

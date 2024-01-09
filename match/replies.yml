@@ -6,8 +6,6 @@ matches:
     replace: "let me know"
   - trigger: ";lmk"
     replace: "Let me know"
-  - trigger: ";nic"
-    replace: " -- Nicole"
   - trigger: ";questions"
     replace: "Let me know if you have any questions!"
 
