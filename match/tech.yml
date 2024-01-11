@@ -203,6 +203,8 @@ matches:
             Learn more about Grafana Labs:
             Website: https://grafana.com
             Repo: https://github.com/grafana/grafana
+  - trigger: ";gsm"
+    replace: "Grafana Synthetic Monitoring"
 
 
   # Adobo & Avocados
