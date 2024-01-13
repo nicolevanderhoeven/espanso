@@ -81,3 +81,5 @@ matches:
     replace: "🍄"
   - trigger: ";eyes.e"
     replace: "👀"
+  - trigger: ";ghost.e"
+    replace: "👻"
