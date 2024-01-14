@@ -89,3 +89,5 @@ matches:
     replace: "💻"
   - trigger: ";chat.e"
     replace: "💬"
+  - trigger: ";mobile.e"
+    replace: "📱"
