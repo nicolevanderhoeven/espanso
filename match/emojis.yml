@@ -87,3 +87,5 @@ matches:
     replace: "📕"
   - trigger: ";laptop.e"
     replace: "💻"
+  - trigger: ";chat.e"
+    replace: "💬"
