@@ -83,3 +83,5 @@ matches:
     replace: "👀"
   - trigger: ";ghost.e"
     replace: "👻"
+  - trigger: ";book.e"
+    replace: "📕"
