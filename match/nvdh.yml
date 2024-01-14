@@ -75,3 +75,5 @@ matches:
   # Videos
   - trigger: ";video.anup"
     replace: "https://www.youtube.com/watch?v=7-SOwxpZQNI"
+  - trigger: ";thumb"
+    replace: "https://img.youtube.com/vi/fXNSqrUtiJo/maxresdefault.jpg"
