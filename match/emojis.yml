@@ -85,3 +85,5 @@ matches:
     replace: "👻"
   - trigger: ";book.e"
     replace: "📕"
+  - trigger: ";laptop.e"
+    replace: "💻"
