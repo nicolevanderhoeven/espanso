@@ -62,6 +62,8 @@ matches:
     replace: "https://github.com/"
   - trigger: ";otel"
     replace: "OpenTelemetry"
+  - trigger: ";cp"
+    replace: "continuous profiling"
 
   # Grafana Labs/k6
   - trigger: ";koh"
@@ -205,6 +207,8 @@ matches:
             Repo: https://github.com/grafana/grafana
   - trigger: ";gsm"
     replace: "Grafana Synthetic Monitoring"
+  - trigger: ";pyro"
+    replace: "Pyroscope"
 
 
   # Adobo & Avocados
