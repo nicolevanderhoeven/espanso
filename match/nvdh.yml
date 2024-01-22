@@ -55,7 +55,7 @@ matches:
     replace: "https://tip.nicolevanderhoeven.com"
   - trigger: ";nic"
     replace: "https://nicole.to/"
-  - trigger: "me.dip"
+  - trigger: ";me.dip"
     replace: "https://doingitinpublic.com"
 
   # Grafana Labs
