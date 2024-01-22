@@ -57,6 +57,8 @@ matches:
     replace: "https://nicole.to/"
   - trigger: ";me.dip"
     replace: "https://doingitinpublic.com"
+  - trigger: ";dip"
+    replace: "Doing It in Public"
 
   # Grafana Labs
   - trigger: ";me.gr.e.f"
