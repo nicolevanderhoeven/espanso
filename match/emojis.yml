@@ -103,3 +103,5 @@ matches:
     replace: "🐢"
   - trigger: ";troll.e"
     replace: "🧌"
+  - trigger: ";thanks.e"
+    replace: "🙏🏻"
