@@ -91,6 +91,18 @@ matches:
     replace: "🤖"
   - trigger: ";joy.e"
     replace: "😂"
+  - trigger: ";peach.e"
+    replace: "🍑"
+  - trigger: ";wet.e"
+    replace: "💦"
+  - trigger: ";eggplant.e"
+    replace: "🍆"
+  - trigger: ";cherry.e"
+    replace: "🍒"
+  - trigger: ";taco.e"
+    replace: "🌮"
+  - trigger: ";gear.e"
+    replace: "⚙️"
 
   # Flags
   - trigger: ";flag.es"
