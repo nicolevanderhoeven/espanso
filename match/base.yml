@@ -91,5 +91,7 @@ matches:
     replace: "!r 2d6-1"
   - trigger: ";weird"
     replace: "!r 2d6+3"
+  - trigger: ";co"
+    replace: "Candela Obscura"
 
 
