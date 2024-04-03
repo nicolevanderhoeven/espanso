@@ -103,6 +103,12 @@ matches:
     replace: "🌮"
   - trigger: ";gear.e"
     replace: "⚙️"
+  - trigger: ";heartfire.e"
+    replace: "❤️‍🔥"
+  - trigger: ";heart.e"
+    replace: "❤️"
+  - trigger: ";red.e"
+    replace: "🛑"
 
   # Flags
   - trigger: ";flag.es"
