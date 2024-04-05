@@ -109,6 +109,8 @@ matches:
     replace: "❤️"
   - trigger: ";red.e"
     replace: "🛑"
+  - trigger: ";shrug.e"
+    replace: "🤷‍♀️"
 
   # Flags
   - trigger: ";flag.es"
