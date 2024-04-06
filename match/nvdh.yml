@@ -81,3 +81,13 @@ matches:
     replace: "https://www.youtube.com/watch?v=7-SOwxpZQNI"
   - trigger: ";thumb"
     replace: "https://img.youtube.com/vi/fXNSqrUtiJo/maxresdefault.jpg"
+
+  # pkm.social
+  - trigger: ";bot"
+    replace: |
+              Hi!
+              
+              I'm Nicole, one of the admins for pkm.social. I saw your registration and wanted to reach out to you about it. We've had an influx of bots signing up recently, so we turned on registration approvals. Could you respond to this email with a few words to let me know you're a real person and not a bot? 😅
+              
+              Thanks!
+              Nicole van der Hoeven
