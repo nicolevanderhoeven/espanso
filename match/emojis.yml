@@ -113,6 +113,8 @@ matches:
     replace: "🤷‍♀️"
   - trigger: ";d.e"
     replace: "🧑🏻‍🎤"
+  - trigger: ";shell.e"
+    replace: "🐚"
 
   # Flags
   - trigger: ";flag.es"
