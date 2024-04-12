@@ -111,6 +111,8 @@ matches:
     replace: "🛑"
   - trigger: ";shrug.e"
     replace: "🤷‍♀️"
+  - trigger: ";d.e"
+    replace: "🧑🏻‍🎤"
 
   # Flags
   - trigger: ";flag.es"
