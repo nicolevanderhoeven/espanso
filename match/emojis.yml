@@ -115,6 +115,8 @@ matches:
     replace: "🧑🏻‍🎤"
   - trigger: ";shell.e"
     replace: "🐚"
+  - trigger: ";uni.e"
+    replace: "🦄"
 
   # Flags
   - trigger: ";flag.es"
