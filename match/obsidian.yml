@@ -80,3 +80,7 @@ matches:
     replace: "https://quickadd.obsidian.guide/docs/"
   - trigger: ";ex"
     replace: "Excalidraw"
+  - trigger: ";eb"
+    replace: "ExcaliBrain"
+  - trigger: ";oex"
+    replace: "Obsidian Excalidraw"
