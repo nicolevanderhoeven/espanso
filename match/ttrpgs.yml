@@ -56,3 +56,5 @@ matches:
     replace: "Cyrios Mountains"
   - trigger: ";te"
     replace: "Three Earrings"
+  - trigger: ";ps"
+    replace: "Pork Salami"
