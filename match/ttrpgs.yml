@@ -42,7 +42,7 @@ matches:
     replace: "!r 2d6+3"
 
 # Temporary White Circle
-  - trigger: ";twc"
+  - trigger: ";twc.n"
     replace: "Temporary White Circle"
   - trigger: ";pd"
     replace: "Port Damali"
