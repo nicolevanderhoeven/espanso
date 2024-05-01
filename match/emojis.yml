@@ -119,6 +119,8 @@ matches:
     replace: "🦄"
   - trigger: ";rain.e"
     replace: "🌈"
+  - trigger: ";goblin.e"
+    replace: "👹"
 
   # Flags
   - trigger: ";flag.es"
