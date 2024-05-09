@@ -18,7 +18,7 @@ matches:
     replace: "Sly Flourish"
   - trigger: ";tt"
     replace: "TTRPG"
-  - trigger: ";co"
+  - trigger: ";cand"
     replace: "Candela Obscura"
   - trigger: ";fe"
     replace: "D&D 5e"
