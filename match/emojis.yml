@@ -121,6 +121,8 @@ matches:
     replace: "🌈"
   - trigger: ";goblin.e"
     replace: "👹"
+  - trigger: ";tear.e"
+    replace: "😢"
 
   # Flags
   - trigger: ";flag.es"

@@ -54,7 +54,7 @@ matches:
     replace: "Pallid Elves"
   - trigger: ";cyrios"
     replace: "Cyrios Mountains"
-  - trigger: ";te"
+  - trigger: ";three"
     replace: "Three Earrings"
   - trigger: ";ps"
     replace: "Pork Salami"
