@@ -237,7 +237,7 @@ matches:
               Site: https://www.testingwithmarie.com/
   - trigger: ";docs.loki"
     replace: "https://grafana.com/docs/loki/"
-  - trigger: ";da"
+  - trigger: ";dadv"
     replace: "Developer Advocacy"
   - trigger: ";dr"
     replace: "Developer Relations"
