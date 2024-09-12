@@ -241,3 +241,5 @@ matches:
     replace: "Developer Advocacy"
   - trigger: ";dr"
     replace: "Developer Relations"
+  - trigger: ";ott"
+    replace: "OTel"

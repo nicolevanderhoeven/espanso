@@ -123,6 +123,8 @@ matches:
     replace: "👹"
   - trigger: ";tear.e"
     replace: "😢"
+  - trigger: ";question.e"
+    replace: "❓"
 
   # Flags
   - trigger: ";flag.es"
