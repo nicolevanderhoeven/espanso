@@ -243,3 +243,7 @@ matches:
     replace: "Developer Relations"
   - trigger: ";ott"
     replace: "OTel"
+  - trigger: ";repo.loki"
+    replace: "https://github.com/grafana/loki"
+  - trigger: ";forum.loki"
+    replace: "https://community.grafana.com/c/grafana-loki/41"
