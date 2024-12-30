@@ -48,7 +48,7 @@ matches:
   - trigger: ";llip"
     replace: "learning in public"
 
-  # Countries
+  # Countries and places
   - trigger: ";nl"
     replace: "the Netherlands"
   - trigger: ";phils"
@@ -59,6 +59,8 @@ matches:
     replace: "Portugal"
   - trigger: ";sin"
     replace: "Singapore"
+  - trigger: ";iz"
+    replace: "İzmir"
 
   
 

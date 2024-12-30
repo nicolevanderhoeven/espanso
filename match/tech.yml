@@ -209,6 +209,48 @@ matches:
     replace: "Grafana Synthetic Monitoring"
   - trigger: ";pyro"
     replace: "Pyroscope"
+  - trigger: ";docs.loki"
+    replace: "https://grafana.com/docs/loki/"
+  - trigger: ";dadv"
+    replace: "Developer Advocacy"
+  - trigger: ";dr"
+    replace: "Developer Relations"
+  - trigger: ";ott"
+    replace: "OTel"
+  - trigger: ";repo.loki"
+    replace: "https://github.com/grafana/loki"
+  - trigger: ";forum.loki"
+    replace: "https://community.grafana.com/c/grafana-loki/41"
+  - trigger: ";lcc"
+    replace: "Loki Community Call"
+  - trigger: ";text.lcc"
+    replace: |
+              In this Community Call, Senior Software Engineer Christian Haudum talks to us about bloom filter changes for Grafana Loki, including the deprecation of the bloom compactor and a pivot towards creating bloom filters for structured metadata. Bloom filters are a probabilistic data structure that we're using to improve query performance in Loki.
+              -----
+              
+              Community Calls are monthly meetings that are open to everyone interested in the development of Loki. They are an opportunity for software engineers working on Loki to discuss new features as well as for open-source users of Loki to ask questions. To participate in the next Community Call, subscribe to the calendar here: https://gra.fan/lokicccal
+
+              HELPFUL LINKS:
+              Loki Community Call Agenda: https://gra.fan/lokicc
+              Loki GitHub repo: https://gra.fan/lokirepo
+              Loki docs: https://gra.fan/lokidocs
+
+              TIMESTAMPS:
+
+
+              ☁️ Grafana Cloud is the easiest way to get started with Grafana dashboards, metrics, logs, and traces. Our forever-free tier includes access to 10k metrics, 50GB logs, 50GB traces and more. We also have plans for every use case. Sign up: https://grafana.com/get/?src=yt&mdm=social&cnt=description
+
+              ❓ Have a question that isn't related to this video? Check out the Official Grafana Community Forums and ask your question or find your answer: https://community.grafana.com/?src=yt&mdm=social&cnt=description
+
+              👍 If you found this video useful, be sure to give it a thumbs up and subscribe to our channel for more helpful Grafana videos. 
+
+              📱 Follow us for the latest and greatest on all things Grafana and our other OSS projects. 
+
+              X: https://twitter.com/grafana 
+              LinkedIn: https://www.linkedin.com/company/grafana-labs/mycompany 
+              Facebook: https://www.facebook.com/grafana
+
+              #Grafana #Observability #loki
 
 
   # Adobo & Avocados
@@ -235,15 +277,3 @@ matches:
               BlueSky: https://bsky.app/profile/mariecruz.bsky.social
               LinkedIn: https://www.linkedin.com/in/mariedesireecruz/
               Site: https://www.testingwithmarie.com/
-  - trigger: ";docs.loki"
-    replace: "https://grafana.com/docs/loki/"
-  - trigger: ";dadv"
-    replace: "Developer Advocacy"
-  - trigger: ";dr"
-    replace: "Developer Relations"
-  - trigger: ";ott"
-    replace: "OTel"
-  - trigger: ";repo.loki"
-    replace: "https://github.com/grafana/loki"
-  - trigger: ";forum.loki"
-    replace: "https://community.grafana.com/c/grafana-loki/41"
