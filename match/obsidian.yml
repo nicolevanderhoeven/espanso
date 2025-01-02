@@ -84,3 +84,5 @@ matches:
     replace: "ExcaliBrain"
   - trigger: ";oex"
     replace: "Obsidian Excalidraw"
+  - trigger: ";docs.tasks"
+    replace: "https://publish.obsidian.md/tasks/Introduction"
