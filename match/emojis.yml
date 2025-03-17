@@ -125,6 +125,8 @@ matches:
     replace: "😢"
   - trigger: ";question.e"
     replace: "❓"
+  - trigger: ";wolf.e"
+    replace: "🐺"
 
   # Flags
   - trigger: ";flag.es"
