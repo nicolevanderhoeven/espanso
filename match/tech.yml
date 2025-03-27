@@ -64,6 +64,8 @@ matches:
     replace: "OpenTelemetry"
   - trigger: ";cp"
     replace: "continuous profiling"
+  - trigger: ";lit"
+    replace: "OpenLIT"
 
   # Grafana Labs/k6
   - trigger: ";koh"
