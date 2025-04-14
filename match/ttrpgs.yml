@@ -58,3 +58,5 @@ matches:
     replace: "Three Earrings"
   - trigger: ";ps"
     replace: "Pork Salami"
+  - trigger: ";coa"
+    replace: "City of Arches"
