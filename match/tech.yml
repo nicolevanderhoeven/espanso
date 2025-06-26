@@ -279,3 +279,9 @@ matches:
               BlueSky: https://bsky.app/profile/mariecruz.bsky.social
               LinkedIn: https://www.linkedin.com/in/mariedesireecruz/
               Site: https://www.testingwithmarie.com/
+  - trigger: ";mqe"
+    replace: "Mimir Query Engine"
+  - trigger: ";ws"
+    replace: "WarpStream"
+  - trigger: ";lokidoc"
+    replace: "https://grafana.com/docs/loki/<LOKI_VERSION>/"

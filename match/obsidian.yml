@@ -86,3 +86,5 @@ matches:
     replace: "Obsidian Excalidraw"
   - trigger: ";docs.tasks"
     replace: "https://publish.obsidian.md/tasks/Introduction"
+  - trigger: ";zk"
+    replace: "Zettelkasten"
