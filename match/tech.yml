@@ -285,3 +285,7 @@ matches:
     replace: "WarpStream"
   - trigger: ";lokidoc"
     replace: "https://grafana.com/docs/loki/<LOKI_VERSION>/"
+  - trigger: ";rm"
+    replace: "reMarkable"
+  - trigger: "rpp"
+    replace: "reMarkable Paper Pro"
