@@ -145,3 +145,5 @@ matches:
     replace: "🇺🇸"
   - trigger: ";flag.ee"
     replace: "🇪🇪"
+  - trigger: ";tv.e"
+    replace: "📺"
