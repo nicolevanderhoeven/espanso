@@ -147,3 +147,5 @@ matches:
     replace: "🇪🇪"
   - trigger: ";tv.e"
     replace: "📺"
+  - trigger: ";fireheart.e"
+    replace: "❤️‍🔥"
