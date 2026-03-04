@@ -50,3 +50,5 @@ matches:
     replace: "https://link.snipd.com/Cx7S/nicole"
   - trigger: ";aff.buttondown"
     replace: "https://buttondown.email/refer/nvdh"
+  - trigger: ";aff.plaud"
+    replace: "https://plaudus.sjv.io/MA4GQN"

@@ -149,3 +149,5 @@ matches:
     replace: "📺"
   - trigger: ";fireheart.e"
     replace: "❤️‍🔥"
+  - trigger: ";flag.ca"
+    replace: "🇨🇦"
