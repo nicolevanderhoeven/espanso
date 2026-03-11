@@ -297,3 +297,5 @@ matches:
     replace: "Assistant"
   - trigger: ";docs.ass"
     replace: "https://grafana.com/docs/grafana-cloud/machine-learning/assistant/"
+  - trigger: ";oc"
+    replace: "OpenClaw"
