@@ -299,3 +299,5 @@ matches:
     replace: "https://grafana.com/docs/grafana-cloud/machine-learning/assistant/"
   - trigger: ";oc"
     replace: "OpenClaw"
+  - trigger: ";sync"
+    replace: "Syncthing"
