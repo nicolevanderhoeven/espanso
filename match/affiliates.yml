@@ -52,3 +52,5 @@ matches:
     replace: "https://buttondown.email/refer/nvdh"
   - trigger: ";aff.plaud"
     replace: "https://plaudus.sjv.io/MA4GQN"
+  - trigger: ";aff.1office"
+    replace: "https://1office.co/?fpr=nicole57"
