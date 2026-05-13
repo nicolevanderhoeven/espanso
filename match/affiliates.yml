@@ -54,3 +54,5 @@ matches:
     replace: "https://plaudus.sjv.io/MA4GQN"
   - trigger: ";aff.1office"
     replace: "https://1office.co/?fpr=nicole57"
+  - trigger: ";aff.warp"
+    replace: "https://app.warp.dev/referral/9Y5LRV"
