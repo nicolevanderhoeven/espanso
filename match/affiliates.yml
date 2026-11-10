@@ -56,3 +56,7 @@ matches:
     replace: "https://1office.co/?fpr=nicole57"
   - trigger: ";aff.warp"
     replace: "https://app.warp.dev/referral/9Y5LRV"
+  - trigger: ";me.aff"
+    replace: "https://nicolevanderhoeven.com/affiliates"
+  - trigger: ";me.granola"
+    replace: "https://www.granola.ai?via=nicole-van-der-hoeven"
