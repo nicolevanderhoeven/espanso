@@ -151,3 +151,5 @@ matches:
     replace: "❤️‍🔥"
   - trigger: ";flag.ca"
     replace: "🇨🇦"
+  - trigger: ";k6logo.e"
+    replace: "![[k6 logo - small.png|15]]🎞️ "

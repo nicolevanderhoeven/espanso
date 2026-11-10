@@ -1,0 +1,206 @@
+matches:
+
+  # Grafana Labs/k6
+  - trigger: ";koh"
+    replace: "k6 Office Hours"
+  - trigger: ";invitekoh"
+    replace: |
+              Hey! The link to the streaming platform is ${STREAMYARD_LINK_HERE}
+              
+              However, for sharing purposes, the video itself will be live here: ${YOUTUBE_LINK_HERE} and the recording will also be saved on that link afterwards.
+
+              This invitation is for 15 minutes before broadcast time so that we can all do a tech check for audio/video/screenshare settings. Looking forward to it! :)
+  - trigger: ";gc"
+    replace: "Grafana Cloud"
+  - trigger: ";gl"
+    replace: "Grafana Labs"
+  - trigger: ";graf"
+    replace: "Grafana"
+  - trigger: ";kc"
+    replace: "k6 Cloud"
+  - trigger: ";gk6"
+    replace: "Grafana Cloud k6"
+  - trigger: ";me.k6.e"
+    replace: "nicole@k6.io"
+  - trigger: ";k6.yt"
+    replace: "https://youtube.com/k6test"
+  - trigger: ";gr.yt"
+    replace: "https://youtube.com/@grafana"
+  - trigger: ";k6.live"
+    replace: "https://www.youtube.com/c/k6test/live"
+  - trigger: ";me.li.e"
+    replace: "nicole@loadimpact.com"
+  - trigger: ";me.glmast"
+    replace: "https://grafana.social/@nicole"
+  - trigger: ";playlist.kc"
+    replace: "https://www.youtube.com/watch?v=ncxCIuo5tUU&list=PLJdv3RhAQXNGkRCp7Q0k77n5jif4qjz2o"
+  - trigger: ";playlist.koh"
+    replace: "https://www.youtube.com/playlist?list=PLJdv3RhAQXNE1TFXn2pp9h_Ul1q_kJrEZ"
+  - trigger: ";playlist.goh"
+    replace: "https://www.youtube.com/playlist?list=PLDGkOdUX1Ujrrse-cdj20RRah9hyHdxBu"
+  - trigger: ";textkoh"
+    replace: |
+
+                ---
+
+                Contact Nicole:
+                Mastodon: https://pkm.social/@nicole
+                GitHub: https://github.com/nicolevanderhoeven
+                Site: https://nicolevanderhoeven.com
+
+                Contact Marie:
+                X: https://twitter.com/mcruzdrake
+                Site: https://www.testingwithmarie.com/
+
+                Learn more about k6:
+                Website: https://k6.io
+                Repo: https://github.com/grafana/k6
+  - trigger: ";textmeetup"
+    replace: |
+                This is a live event, and you can catch us on one of the following platforms:
+                YouTube
+                Twitch
+                LinkedIn
+
+                This event will be recorded, and the recording will be immediately available on the same link on YouTube afterwards.
+
+  - trigger: ";ocr"
+    replace: "ObservabilityCON on the Road"
+  - trigger: ";graa"
+    replace: "Grafana Agent"
+  - trigger: ";gkm"
+    replace: "Grafana Kubernetes Monitoring"
+  - trigger: ";k6"
+    replace: |
+              import http from "k6/http";
+              import { sleep, check } from "k6";
+              import { randomIntBetween } from "https://jslib.k6.io/k6-utils/1.1.0/index.js";
+
+              // export const options = {
+              //     scenarios: {
+              //         home: {
+              //             executor: 'ramping-vus',
+              //             exec: 'homepage',
+              //             startVUs: 0,
+              //             stages: [
+              //                 { duration: "30s", target: 20 },
+              //                 { duration: "10m", target: 20 },
+              //                 { duration: "30s", target: 0}
+              //             ],
+              //         },
+              //         dispatch: {
+              //             executor: 'ramping-vus',
+              //             exec: 'dispatch',
+              //             startVUs: 0,
+              //             stages: [
+              //                 { duration: "30s", target: 10 },
+              //                 { duration: "10m", target: 10 },
+              //                 { duration: "30s", target: 0}
+              //             ]
+              //         }
+              //     },
+              //     thresholds: { 
+              //         http_req_duration: ['p(95) < 1000'], // Response times average below 1s
+              //         http_req_failed: ['rate < 0.01'],  // Error rate below 1%
+              //       },
+              //     ext : { 
+              //         loadimpact: {
+              //           projectID: ,
+              //           name: "",
+              //           distribution: {
+              //             'amazon:us:ashburn': { loadZone: 'amazon:us:ashburn', percent: 50 },
+              //             'amazon:de:frankfurt': { loadZone: 'amazon:de:frankfurt', percent: 30 },
+              //             'amazon:au:sydney': { loadZone: 'amazon:au:sydney', percent: 20 },
+              //           },
+              //         },
+              //       },
+              // }
+
+              export default function () {
+
+              }
+  - trigger: ";goh"
+    replace: "Grafana Office Hours"
+  - trigger: ";ccg"
+    replace: "Café con Grafana"
+  - trigger: ";text.goh"
+    replace: |                          
+            ---
+
+            Contact Nicole:
+            Mastodon: https://pkm.social/@nicole
+            LinkedIn: https://www.linkedin.com/in/nvanderhoeven/
+            Site: https://nicolevanderhoeven.com
+
+            Contact Paul:
+            X: https://twitter.com/javaducky
+            LinkedIn: https://www.linkedin.com/in/pabalogh/
+            Site: https://javaducky.com/
+
+            Learn more about Grafana Labs:
+            Website: https://grafana.com
+            Repo: https://github.com/grafana/grafana
+  - trigger: ";gsm"
+    replace: "Grafana Synthetic Monitoring"
+  - trigger: ";pyro"
+    replace: "Pyroscope"
+  - trigger: ";docs.loki"
+    replace: "https://grafana.com/docs/loki/"
+  - trigger: ";dadv"
+    replace: "Developer Advocacy"
+  - trigger: ";dr"
+    replace: "Developer Relations"
+  - trigger: ";ott"
+    replace: "OTel"
+  - trigger: ";repo.loki"
+    replace: "https://github.com/grafana/loki"
+  - trigger: ";forum.loki"
+    replace: "https://community.grafana.com/c/grafana-loki/41"
+  - trigger: ";lcc"
+    replace: "Loki Community Call"
+  - trigger: ";text.lcc"
+    replace: |
+              In this Community Call, Senior Software Engineer Christian Haudum talks to us about bloom filter changes for Grafana Loki, including the deprecation of the bloom compactor and a pivot towards creating bloom filters for structured metadata. Bloom filters are a probabilistic data structure that we're using to improve query performance in Loki.
+              -----
+              
+              Community Calls are monthly meetings that are open to everyone interested in the development of Loki. They are an opportunity for software engineers working on Loki to discuss new features as well as for open-source users of Loki to ask questions. To participate in the next Community Call, subscribe to the calendar here: https://gra.fan/lokicccal
+
+              HELPFUL LINKS:
+              Loki Community Call Agenda: https://gra.fan/lokicc
+              Loki GitHub repo: https://gra.fan/lokirepo
+              Loki docs: https://gra.fan/lokidocs
+
+              TIMESTAMPS:
+
+
+              ☁️ Grafana Cloud is the easiest way to get started with Grafana dashboards, metrics, logs, and traces. Our forever-free tier includes access to 10k metrics, 50GB logs, 50GB traces and more. We also have plans for every use case. Sign up: https://grafana.com/get/?src=yt&mdm=social&cnt=description
+
+              ❓ Have a question that isn't related to this video? Check out the Official Grafana Community Forums and ask your question or find your answer: https://community.grafana.com/?src=yt&mdm=social&cnt=description
+
+              👍 If you found this video useful, be sure to give it a thumbs up and subscribe to our channel for more helpful Grafana videos. 
+
+              📱 Follow us for the latest and greatest on all things Grafana and our other OSS projects. 
+
+              X: https://twitter.com/grafana 
+              LinkedIn: https://www.linkedin.com/company/grafana-labs/mycompany 
+              Facebook: https://www.facebook.com/grafana
+
+              #Grafana #Observability #loki
+  - trigger: ";mqe"
+    replace: "Mimir Query Engine"
+  - trigger: ";lokidoc"
+    replace: "https://grafana.com/docs/loki/<LOKI_VERSION>/"
+  - trigger: ";gocc"
+    replace: "Grafana ❤️‍🔥 OpenTelemetry Community Call"
+  - trigger: ";gass"
+    replace: "Grafana Assistant"
+  - trigger: ";ass"
+    replace: "Assistant"
+  - trigger: ";docs.ass"
+    replace: "https://grafana.com/docs/grafana-cloud/machine-learning/assistant/"
+  - trigger: ";aw"
+    replace: "Assistant Watchers"
+  - trigger: ";gp"
+    replace: "Grafana Pages"
+  - trigger: ";gn"
+    replace: "Grafanista"

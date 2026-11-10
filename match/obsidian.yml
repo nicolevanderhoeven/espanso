@@ -16,8 +16,6 @@ matches:
               requires: 
               source:
               ---
-  - trigger: ";k6logo.e"
-    replace: "![[k6 logo - small.png|15]]🎞️ "
   - trigger: ";leaf"
     replace: |
               ```leaflet
@@ -31,16 +29,6 @@ matches:
               unit: feet
               scale: 1
               ```
-  - trigger: ";p2.1act"
-    replace: "*⬻{ .Pathfinder }*"
-  - trigger: ";p2.2act"
-    replace: "*⬺{ .Pathfinder }*"
-  - trigger: ";p2.3act"
-    replace: "⬽{ .Pathfinder }"
-  - trigger: ";p2.noact"
-    replace: "*⭓{ .Pathfinder }*"
-  - trigger: ";p2.react"
-    replace: "*⬲{ .Pathfinder }*"
   - trigger: ";today"
     replace: "{{mydate}}"
     vars:

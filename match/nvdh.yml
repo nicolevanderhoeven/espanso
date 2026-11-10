@@ -23,6 +23,8 @@ matches:
     replace: "https://twitter.com/n_vanderhoeven"
   - trigger: ";me.yt"
     replace: "https://www.youtube.com/@nicolevdh"
+  - trigger: ";me.aff"
+    replace: "https://nicolevanderhoeven.com/affiliates"
   - trigger: ";ethics"
     replace: "https://nicolevanderhoeven.com/ethics/"
   - trigger: ";perks"
