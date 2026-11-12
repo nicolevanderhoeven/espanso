@@ -204,3 +204,5 @@ matches:
     replace: "Grafana Pages"
   - trigger: ";gn"
     replace: "Grafanista"
+  - trigger: ";dj"
+    replace: "Defiant Jazz"
