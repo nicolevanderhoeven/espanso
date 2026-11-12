@@ -206,3 +206,5 @@ matches:
     replace: "Grafanista"
   - trigger: ";dj"
     replace: "Defiant Jazz"
+  - trigger: ";champ"
+    replace: "Grafana Champions"
