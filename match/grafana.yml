@@ -208,3 +208,5 @@ matches:
     replace: "Defiant Jazz"
   - trigger: ";champ"
     replace: "Grafana Champions"
+  - trigger: ";og"
+    replace: "Observability Gambit"
