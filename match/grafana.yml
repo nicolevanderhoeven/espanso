@@ -121,8 +121,8 @@ matches:
               }
   - trigger: ";goh"
     replace: "Grafana Office Hours"
-  - trigger: ";ccg"
-    replace: "Café con Grafana"
+  - trigger: ";cc"
+    replace: "Community Call"
   - trigger: ";text.goh"
     replace: |                          
             ---
