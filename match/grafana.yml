@@ -12,6 +12,8 @@ matches:
               This invitation is for 15 minutes before broadcast time so that we can all do a tech check for audio/video/screenshare settings. Looking forward to it! :)
   - trigger: ";gc"
     replace: "Grafana Cloud"
+  - trigger: ";ctxh"
+    replace: "Context Horizon"
   - trigger: ";gl"
     replace: "Grafana Labs"
   - trigger: ";graf"
