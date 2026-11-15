@@ -28,6 +28,8 @@ matches:
     replace: "D&D Beyond"
   - trigger: ";dem"
     replace: "Demiplane"
+  - trigger: ";ana"
+    replace: "Analecta"
 
 # Kids on Bikes
   - trigger: ";charm"
