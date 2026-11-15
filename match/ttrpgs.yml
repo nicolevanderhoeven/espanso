@@ -30,6 +30,8 @@ matches:
     replace: "Demiplane"
   - trigger: ";ana"
     replace: "Analecta"
+  - trigger: ";pb"
+    replace: "Pathbuilder"
 
 # Kids on Bikes
   - trigger: ";charm"
