@@ -125,6 +125,8 @@ matches:
     replace: "Grafana Office Hours"
   - trigger: ";cc"
     replace: "Community Call"
+  - trigger: ";tcw"
+    replace: "The Context Window"
   - trigger: ";text.goh"
     replace: |                          
             ---
