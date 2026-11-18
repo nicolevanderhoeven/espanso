@@ -214,3 +214,5 @@ matches:
     replace: "Grafana Champions"
   - trigger: ";og"
     replace: "Observability Gambit"
+  - trigger: ";vgf"
+    replace: "Virtual Grafana & Friends"
