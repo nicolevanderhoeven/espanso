@@ -216,3 +216,5 @@ matches:
     replace: "Observability Gambit"
   - trigger: ";vgf"
     replace: "Virtual Grafana & Friends"
+  - trigger: ";grf"
+    replace: "Grafana & Friends"
