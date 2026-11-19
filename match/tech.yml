@@ -79,3 +79,5 @@ matches:
     replace: "Syncthing"
   - trigger: ";stream"
     replace: "StreamYard"
+  - trigger: ";mast"
+    replace: "Mastodon"
