@@ -62,6 +62,8 @@ matches:
     replace: "https://gist.github.com/"
   - trigger: ";git"
     replace: "https://github.com/"
+  - trigger: ";ghub"
+    replace: "GitHub"
   - trigger: ";otel"
     replace: "OpenTelemetry"
   - trigger: ";cp"
