@@ -146,6 +146,8 @@ matches:
             Repo: https://github.com/grafana/grafana
   - trigger: ";gsm"
     replace: "Grafana Synthetic Monitoring"
+  - trigger: ";sm"
+    replace: "Synthetic Monitoring"
   - trigger: ";pyro"
     replace: "Pyroscope"
   - trigger: ";docs.loki"

@@ -38,7 +38,7 @@ matches:
     replace: "Prometheus Remote Write"
   - trigger: ";sel"
     replace: "Selenium"
-  - trigger: ";sm"
+  - trigger: ";shu"
     replace: "Shumichi"
   - trigger: ";tb"
     replace: "Test Builder"
