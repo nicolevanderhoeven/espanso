@@ -72,6 +72,8 @@ matches:
     replace: "continuous profiling"
   - trigger: ";lit"
     replace: "OpenLIT"
+  - trigger: ";qg"
+    replace: "Quillgrep"
 
   - trigger: ";ws"
     replace: "WarpStream"
