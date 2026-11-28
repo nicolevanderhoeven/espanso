@@ -145,6 +145,8 @@ matches:
     replace: "🇪🇪"
   - trigger: ";tv.e"
     replace: "📺"
+  - trigger: ";talk.e"
+    replace: "🎤"
   - trigger: ";fireheart.e"
     replace: "❤️‍🔥"
   - trigger: ";flag.ca"
