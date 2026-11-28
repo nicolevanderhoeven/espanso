@@ -149,6 +149,8 @@ matches:
     replace: "🎤"
   - trigger: ";pin.e"
     replace: "📍"
+  - trigger: ";cal.e"
+    replace: "🗓️"
   - trigger: ";fireheart.e"
     replace: "❤️‍🔥"
   - trigger: ";flag.ca"
