@@ -132,7 +132,7 @@ matches:
   - trigger: ";flag.de"
     replace: "🇩🇪"
   - trigger: ";flag.au"
-    replace: "🇳🇿"
+    replace: "🇦🇺"
   - trigger: ";flag.ph"
     replace: "🇵🇭"
   - trigger: ";flag.nl"
