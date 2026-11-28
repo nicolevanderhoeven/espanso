@@ -147,6 +147,8 @@ matches:
     replace: "📺"
   - trigger: ";talk.e"
     replace: "🎤"
+  - trigger: ";pin.e"
+    replace: "📍"
   - trigger: ";fireheart.e"
     replace: "❤️‍🔥"
   - trigger: ";flag.ca"
